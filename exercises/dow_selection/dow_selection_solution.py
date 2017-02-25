@@ -56,8 +56,8 @@ high_volume_mask = dow[:, VOLUME] > 5.5e9
 
 # 2. How many are there?  (hint: use sum).
 high_volume_days = sum(high_volume_mask)
-print "The dow volume has been above 5.5 billion on" \
-      " %d days this year." % high_volume_days
+#print "The dow volume has been above 5.5 billion on" \
+#      " %d days this year." % high_volume_days
 
 # 3. Find the index of every row (or day) where the volume is greater
 #    than 5.5 billion. hint: look at the where() command.
